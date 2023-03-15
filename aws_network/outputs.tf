@@ -1,3 +1,3 @@
-output "vpc-id" {
+output "vpc" {
   value = aws_vpc.vpc.id
 }
