@@ -135,12 +135,3 @@ resource "aws_route_table_association" "priv-2" {
   subnet_id      = aws_subnet.priv-sub-B.id
   route_table_id = aws_route_table.priv-route.id
 }
-
-#Output
-#output "vpc-id" {
-#  value = aws_vpc.vpc.id
-#}
-
-#output "subnet-id" {
-#  value = aws_subnet.pub-sub-A.id
-#}
