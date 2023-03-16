@@ -19,3 +19,11 @@ output "pub-subnet-B" {
   value = aws_subnet.pub-sub-B.id
 }
 
+output "priv-subnet-A" {
+  value = aws_subnet.priv-sub-A.id
+}
+
+
+output "priv-subnet-B" {
+  value = aws_subnet.priv-sub-B.id
+}
