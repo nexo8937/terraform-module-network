@@ -86,7 +86,7 @@ resource "aws_nat_gateway" "nat-gw" {
   allocation_id = aws_eip.elastic-ip.id
   subnet_id     = aws_subnet.pub-sub-A.id
   tags = {
-    Name = "exo nat"
+    Name = "nat-gateway"
   }
 }
 
