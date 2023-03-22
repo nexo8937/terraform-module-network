@@ -2,7 +2,7 @@
 resource "aws_vpc" "vpc" {
   cidr_block = "10.0.0.0/16"
   tags = {
-    Name = "wordpress_vpc"
+    Name = "vpc"
   }
 }
 
@@ -77,7 +77,7 @@ resource "aws_eip" "elastic-ip" {
 resource "aws_internet_gateway" "igw" {
   vpc_id = aws_vpc.vpc.id
   tags = {
-    Name = "intenet gateway for wordpress"
+    Name = "intenet gateway"
   }
 }
 
