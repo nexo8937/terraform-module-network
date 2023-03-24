@@ -5,7 +5,7 @@ output "vpc" {
 output "db-subnet-A" {
   value = aws_subnet.db-sub-A.id
 }
- 
+
 output "db-subnet-B" {
   value = aws_subnet.db-sub-B.id
 }
